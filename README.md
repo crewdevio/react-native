@@ -1,6 +1,6 @@
-# Svelte Native
+# React Native
 
-This template allows you to create native applications for Android and iOS using svelte, tailwind, capacitor, konsta UI.
+This template allows you to create native applications for Android and iOS using react, tailwind, capacitor, konsta UI.
 
 ## Get started
 
@@ -27,7 +27,7 @@ for android development:
 first use `template` or `clone` or `fork` this repo:
 
 ```console
-npx degit crewdevio/svelte-native my-app
+npx degit crewdevio/react-native my-app
 ```
 
 install all dependencies:

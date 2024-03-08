@@ -1,4 +1,4 @@
-package com.svelte.native;
+package com.react.native;
 
 import com.getcapacitor.BridgeActivity;
 

@@ -1,6 +1,6 @@
 {
-  "appId": "com.svelte.native",
-  "appName": "svelte-native",
+  "appId": "com.react.native",
+  "appName": "react-native",
   "bundledWebRuntime": true,
   "webDir": "dist",
   "plugins": {
