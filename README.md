@@ -1,6 +1,6 @@
 # React Native
 
-This template allows you to create native applications for Android and iOS using react, tailwind, capacitor, konsta UI.
+This template allows you to create native applications for Android and iOS using react, tailwind, capacitor, konsta UI, shadcn/ui.
 
 ## Get started
 
