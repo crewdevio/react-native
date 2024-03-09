@@ -36,12 +36,11 @@ export function Home(props: Props) {
         <ListItem
           label
           title="iOS Theme"
-          after={
+          media={
             <Radio
               onChange={() => props.onTheme("ios")}
               checked={props.theme === "ios"}
               component="div"
-              slot="media"
             />
           }
         />
@@ -49,12 +48,11 @@ export function Home(props: Props) {
         <ListItem
           label
           title="Material Theme"
-          after={
+          media={
             <Radio
               onChange={() => props.onTheme("material")}
               checked={props.theme === "material"}
               component="div"
-              slot="media"
             />
           }
         />
@@ -69,7 +67,6 @@ export function Home(props: Props) {
               onChange={toggleDarkMode}
               checked={darkMode}
               component="div"
-              slot="after"
             />
           }
         />

@@ -12,8 +12,10 @@ export default defineConfig({
         replacement: fileURLToPath(new URL("./src", import.meta.url)),
       },
       {
-        find: "$lib",
-        replacement: fileURLToPath(new URL("./src/lib", import.meta.url)),
+        find: "@components",
+        replacement: fileURLToPath(
+          new URL("./src/components", import.meta.url)
+        ),
       },
       {
         find: "$assets",
@@ -21,7 +23,9 @@ export default defineConfig({
       },
       {
         find: "$utils",
-        replacement: fileURLToPath(new URL("./src/utils", import.meta.url)),
+        replacement: fileURLToPath(
+          new URL("./src/lib/utils.ts", import.meta.url)
+        ),
       },
     ],
   },

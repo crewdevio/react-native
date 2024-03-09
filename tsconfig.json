@@ -21,9 +21,9 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@/*": ["./src/*"],
-      "$lib/*": ["./src/lib/*"],
+      "@components/*": ["./src/components/*"],
       "$assets/*": ["./src/assets/*"],
-      "$utils/*": ["./src/utils/*"]
+      "$utils": ["./src/lib/utils.ts"]
     }
   },
   "include": ["src"],

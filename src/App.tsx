@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useLayoutEffect, useState } from "react";
+import { View } from "@/views/View";
+import { Home } from "@/views/Home";
 import { App } from "konsta/react";
-import { Home } from "$lib/Home";
-import { View } from "$lib/View";
 
 export default function Root() {
   const [theme, setTheme] = useState<"ios" | "material">("material");
