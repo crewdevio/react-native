@@ -1,4 +1,4 @@
-package com.react.native;
+package com.react.app;
 
 import com.getcapacitor.BridgeActivity;
 

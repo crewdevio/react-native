@@ -1,5 +1,5 @@
 {
-  "appId": "com.react.native",
+  "appId": "com.react.app",
   "appName": "react-native",
   "bundledWebRuntime": true,
   "webDir": "dist",
